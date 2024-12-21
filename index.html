@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+ <!-- encabezado-->
+
+    <header class="encabezado">
+        <img src="./assets/alura.png" alt="logo AluraGeek"/>
+
+    </header>
+ <!-- productos-->
+
+    <main class="main">
+        <section class="main__container">
+            <h1 class="titulo">MIS PRODUCTOS</h1>
+            <div data-product class="productos">
+            </div>
+
+        </section>
+<!--
+            <div class="imagen__productos">
+                <img src="https://www.steren.com.co/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/22331c7bc/mouse-usb-para-gamers-1200-2400-3200-dpi.jpg"  alt="imagen producto" style="width: 250px; height: 250px;">
+            </div>
+
+                <div class="card__info">
+                    <p>Mouse Gamer</p>
+            
+                <div class="card__precio">
+                    <p>$90000</p>
+                    <button class="button__eliminar" data-id="${id}">
+                        <img src="./assets/botoneliminar.png" alt="eliminar"> 
+                    </button>
+                    
+                 </div>
+
+                  </div>
+                  -->
+      
+
+        <section class="main__productos">
+            <h1 class="titulo__ingresar__productos">AGREGAR PRODUCTO</h1>
+
+    <!-- formulario-->
+
+            <form class="formulario" data-form>
+                <input data-nombre placeholder="ingrese nombre" type="text">
+                <input data-precio placeholder="ingrese precio" type="text">
+                <input data-imagen placeholder="ingrese url imagen" type="text">
+                <span data-mensaje class="mensaje__error"></span>
+                <div class="button__productos">
+                    <button type="sumbit" class="button__enviar" id="button">Enviar</button>
+                    <button type="reset" class="button__limpiar" id="button">Limpiar</button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+    <footer class="footer-container">
+        <div>
+            <img src="./assets/alura.png" />
+        </div>
+        <p> Desarollado por Monica Cepeda</p>
+        <small>Alura Latam 2024</small>
+    </footer>
+
+    <script type="module" src="js/controladores/main.js"></script>
+</body>
+</html>

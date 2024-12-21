@@ -1,0 +1,41 @@
+{
+    "products": [
+      {
+        "name": "Mouse gamer",
+        "price": "90000",
+        "image": "https://www.steren.com.co/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/22331c7bc/mouse-usb-para-gamers-1200-2400-3200-dpi.jpg",
+        "id": "1"
+      },
+      {
+        "name": "Ipad pro",
+        "price": "5000000",
+        "image": "https://i5.walmartimages.com/seo/2021-Apple-11-inch-iPad-Pro-Wi-Fi-Cellular-1TB-Space-Gray-3rd-Generation_31d1b67b-be21-4492-b6c3-4533a7997005.9cc9dc004bf1c91226b2d54ff1a4b042.jpeg",
+        "id": "2"
+      },
+      {
+        "name": "Lapiz ipad",
+        "price": "70000",
+        "image": "https://m.media-amazon.com/images/I/51jFAT5rxvL._AC_SX679_.jpg",
+        "id": "3"
+      },
+      {
+        "name": "Auriculares",
+        "price": "110000",
+        "image": "https://m.media-amazon.com/images/I/61-5D5L20+L._AC_UL640_FMwebp_QL65_.jpg",
+        "id": "4"
+      },
+      {
+        "name": "Control Nintendo",
+        "price": "210000",
+        "image": "https://m.media-amazon.com/images/I/81BnaX3m1qL._AC_UY436_FMwebp_QL65_.jpg",
+        "id": "5"
+      },
+      {
+        "name": "Usb C",
+        "price": "102000",
+        "image": "https://m.media-amazon.com/images/I/817xK9Cd6JL._AC_SX679_.jpg",
+        "id": "6"
+      }
+     
+    ]
+  }
